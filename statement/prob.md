@@ -55,8 +55,8 @@ Drop the job with the lowest priority, and remove it from the job queue.
 
 ## Constraints
 * $1 \leq N \leq 10^6$
-* $1 \leq \texttt{job\_id}, \texttt{priority} \leq 10^9$
-* It is guaranteed that all \texttt{priority} and \texttt{job\_id} values will be distinct at any given time. 
+* $1 \leq \texttt{job_id}, \texttt{priority} \leq 10^9$
+* It is guaranteed that all $\texttt{priority}$ and $\texttt{job_id}$ values will be distinct at any given time. 
 * All operations will be valid, ensuring that all IDs remain within the specified range.
 
 
