@@ -1,0 +1,20 @@
+{
+    "global_validators": ["validator.cpp"],
+    "subtasks": {
+        "completeOnly": {
+            "index": 1,
+            "score": 20,
+            "validators": []
+        },
+        "completeAndFewDrop": {
+            "index": 2,
+            "score": 20,
+            "validators": []
+        },
+        "full": {
+            "index": 3,
+            "score": 60,
+            "validators": []
+        }
+    }
+}

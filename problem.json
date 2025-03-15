@@ -1,0 +1,12 @@
+{
+    "name": "MinMaxHeap",
+    "code": "MinMaxHeap",
+    "title": "Despair Sans Absolution: Min-max Heap",
+    "type": "Batch",
+    "has_grader": false,
+    "java_enabled": false,
+    "python_enabled": false,
+    "time_limit": 20.0,
+    "memory_limit": 2048,
+    "description": "Task description"
+}

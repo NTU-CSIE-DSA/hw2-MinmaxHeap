@@ -1,0 +1,5 @@
+{
+    "subtask1.cpp": { "verdict": "subtask1_solution" },
+    "subtask2.cpp": { "verdict": "subtask2_solution" },
+    "correct.cpp": { "verdict": "model_solution" }   
+}
