@@ -1,5 +1,6 @@
 {
-    "subtask1.cpp": { "verdict": "subtask1_solution" },
-    "subtask2.cpp": { "verdict": "subtask2_solution" },
-    "correct.cpp": { "verdict": "model_solution" }   
+    "subtask1.cpp": { "verdict": "incorrect" },
+    "subtask2.cpp": { "verdict": "time_limit" },
+    "correct.cpp": { "verdict": "model_solution" },
+    "mle.cpp": { "verdict": "memory_limit" }
 }

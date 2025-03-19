@@ -7,6 +7,6 @@
     "java_enabled": false,
     "python_enabled": false,
     "time_limit": 2.0,
-    "memory_limit": 2048,
+    "memory_limit": 16,
     "description": "Task description"
 }
