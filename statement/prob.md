@@ -19,44 +19,42 @@ The pseudo code on Wikipedia appears pretty clear, and hence we do not list them
 
 Assuming that Tien's job queue is initially empty, the input begins with an integer $N$, representing the total number of operations. Each of the next $N$ lines is given in one of the following formats:
 
-* $\texttt{1 job_id priority}$: add operation
-Insert a job with $\texttt{job_id}$ into the job queue, assigning it the priority $\texttt{priority}$.
+* `1 job_id priority`: indicating an **add** operation, i.e., insert a job with `job_id` into the job queue, assigning it the priority `priority`.
 
-* $\texttt{2}$: complete operation
-Complete the job with the highest priority, and remove it from the job queue.
+* `2`: indicating a **complete** operation, i.e., complete the job with the highest priority, and remove it from the job queue.
 
-* $\texttt{3}$: drop operation
-Drop the job with the lowest priority, and remove it from the job queue.
+* `3`: indicating a **drop** operation, i.e., drop the job with the lowest priority, and remove it from the job queue.
 
 
 ## Output
 
-* For each $\textbf{add}$ operation, print a line that indicates the number of jobs in the job queue with the format: 
+* For each **add** operation, print a line that indicates the number of jobs in the job queue with the format: 
 
-    $\texttt{[num_of_jobs] jobs waiting}$
+    `[num_of_jobs] jobs waiting`
+    
 
-* For each $\textbf{complete}$ operation, if there is a job to be completed, print a line of 
+* For each **complete** operation, if there is a job to be completed, print a line of 
 
-    $\texttt{[job_id] with [priority] completed}$
+    `job [job_id] with [priority] completed`
     
     Otherwise (the queue is empty), print a line of
 
-    $\texttt{no job in queue}$
+    `no job in queue`
 
 
-* For each $\textbf{drop}$ operation, if there is a job to be dropped, print a line of 
+* For each **drop** operation, if there is a job to be dropped, print a line of 
 
-    $\texttt{[job_id] with [priority] dropped}$
+    `job [job_id] with [priority] dropped`
 
     Otherwise (the queue is empty), print a line of
 
-    $\texttt{no job in queue}$
+    `no job in queue`
 
 
 ## Constraints
 * $1 \leq N \leq 10^6$
-* $1 \leq \texttt{job_id}, \texttt{priority} \leq 10^9$
-* It is guaranteed that all $\texttt{priority}$ and $\texttt{job_id}$ values will be distinct at any given time. 
+* $1 \leq$ `job_id, priority` $\leq 10^9$
+* It is guaranteed that all `priority` and `job_id` values will be distinct at any given time. 
 * All operations will be valid, ensuring that all IDs remain within the specified range.
 
 
@@ -64,13 +62,13 @@ Drop the job with the lowest priority, and remove it from the job queue.
 
 ### Subtask 1 (20 pts)
 
-* only $\textbf{add}$ and $\textbf{complete}$ operations are implemented. 
+* only **add** and **complete** operations are implemented. 
 
 ### Subtask 2 (20 pts)
 
 * $1 \leq N \leq 10^5$
 * all operations are implemented
-* $0 \leq$ $\textbf{drop}$ operations $\leq 10^4$
+* $0 \leq$ **drop** operations $\leq 10^4$
 
 ### Subtask 3 (60 pts)
 

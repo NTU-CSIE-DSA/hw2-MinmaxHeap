@@ -1,6 +1,11 @@
 {
     "global_validators": ["validator.cpp"],
     "subtasks": {
+        "sample": {
+            "index": 0,
+            "score": 0,
+            "validators": []
+        },
         "completeOnly": {
             "index": 1,
             "score": 20,
