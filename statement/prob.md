@@ -137,3 +137,7 @@ job 6 with priority 1 dropped
 job 9 with priority 2 dropped
 job 7 with priority 13 completed
 ```
+
+## Memory Constraint Notice
+
+This problem has a **strict memory limit of 16384 KB**, which differs from the default limit of 1048576 KB. Ensure your solution adheres to this constraint to avoid exceeding the limit, which may result in a <font color=#f00>**Runtime Error**</font>.
